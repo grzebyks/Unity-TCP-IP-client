@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/ConnectionStatusText.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Scene_Main_PLC/XamarinSocket.cs">
     <Files>
-      <File FileName="Assets/_Scripts/ConnectionStatusText.cs" Line="23" Column="16" />
-      <File FileName="Assets/_Scripts/NetworkSocket.cs" Line="57" Column="57" />
-      <File FileName="Assets/_Scripts/NewBehaviourScript.cs" Line="41" Column="2" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/PLCSocket.cs" Line="90" Column="9" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/NetworkSocket.cs" Line="4" Column="1" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/AsyncNetworkSocket.cs" Line="30" Column="3" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/XamarinSocket.cs" Line="87" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

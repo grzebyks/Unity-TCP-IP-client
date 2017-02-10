@@ -46,12 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\ConnectionStatusText.cs" />
-     <Compile Include="Assets\_Scripts\EpcMessageManager.cs" />
-     <Compile Include="Assets\_Scripts\NetworkSocket.cs" />
-     <Compile Include="Assets\_Scripts\NewPLCSocket.cs" />
-     <Compile Include="Assets\_Scripts\PLCSocket.cs" />
-     <Compile Include="Assets\_Scripts\ReceivedDataText.cs" />
+     <Compile Include="Assets\_Scripts\Scene_2\TCPConnection.cs" />
+     <Compile Include="Assets\_Scripts\Scene_2\socketScript.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\AsyncNetworkSocket.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\ConnectionStatusText.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\EpcDeviceList.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\NetworkSocket.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\PLCSocket.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\ReceivedDataText.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\XamarinSocket.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
