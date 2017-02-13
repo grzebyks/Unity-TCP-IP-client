@@ -1,42 +1,62 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using UnityEngine;
-//
-//// Here are all devices to be connected to.
-//// Logic will have to be changed in order to apply for multiple targets (tracked objects)
-//
-//// Simple business object. A PartId is used to identify the type of part 
-//// but the part name can change. 
-//
-//
-//
-//public class EpcDeviceList : IEquatable<EpcDeviceList>
-//{
-//	public String hostIP { get; set; }
-//	public Int32 port { get; set; }
-//	public String deviceName { get; set; }
-//	public ushort dataID { get; set; }
-//
-//
-//	public override bool Equals(object obj)
-//	{
-//		if (obj == null) return false;
-//		EpcDeviceList objAsPart = obj as EpcDeviceList;
-//		if (objAsPart == null) return false;
-//		else return Equals(objAsPart);
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+// Here are all devices to be connected to.
+// Logic will have to be changed in order to apply for multiple targets (tracked objects)
+
+// Simple business object. A PartId is used to identify the type of part 
+// but the part name can change. 
+using System.Threading;
+using System.Runtime.InteropServices;
+using System.Net.Sockets;
+
+
+
+public class EpcDeviceProperties : IEquatable<EpcDeviceProperties>
+{
+	public String hostIP { get; set; }
+	public Int32 port { get; set; }
+	public String deviceName { get; set; }
+	public ushort dataID { get; set; }
+	public String descriptionOfData { get; set; }
+	public EpcDevice thisDevice { get; set; }
+	public String sensorValue { get; set; }
+	public TcpClient tcpClient { get; set; }
+
+	public void readSensorValue(){
+		try{
+			thisDevice.readSensorManager (tcpClient);
+		} catch (Exception e){
+			Debug.Log (e);
+		}
+	}
+
+
+	public override bool Equals(object obj)
+	{
+		if (obj == null) return false;
+		EpcDeviceProperties objAsPart = obj as EpcDeviceProperties;
+		if (objAsPart == null) return false;
+		else return Equals(objAsPart);
+	}
+	public override int GetHashCode()
+	{
+		return dataID;
+	}
+	public bool Equals(EpcDeviceProperties other)
+	{
+		if (other == null) return false;
+		return (this.dataID.Equals(other.dataID));
+	}
+//	public Thread connectAsync(){
+//		Thread _thread = new Thread (connect);
+//		return _thread;
 //	}
-////	public override int GetHashCode()
-////	{
-////		return PartId;
-////	}
-//	public bool Equals(EpcDeviceList other)
-//	{
-//		if (other == null) return false;
-//		return (this.dataID.Equals(other.dataID));
-//	}
-//	// Should also override == and != operators.
-//
-//}
+	// Should also override == and != operators.
+
+}
+
 //public class Example
 //{
 //	public static void Main()
