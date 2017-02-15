@@ -4,6 +4,11 @@ using UnityEngine;
 using System;
 using System.Linq;
 
+// Class created in order to give more flexibility in the future usage with
+// multiple robots. Uses new EpcDevice property - _dataID. Thanks to it every
+// sensor is treated as a single EpcDevice, but connection is established only
+// once with a particular ip.
+// TODO: consider creating EpcSensor - a subclass of EpcDevice
 public class ListOfTrackedSensors {
 
 
@@ -38,7 +43,6 @@ public class ListOfTrackedSensors {
 		SensorNameList.Add ("Acceleration");
 		SensorNameList.Add ("Air Supply Pressure");
 
-
 		return SensorNameList;
 	}
 	private static List<ushort> IdOfTrackedObjects(){
@@ -56,10 +60,6 @@ public class ListOfTrackedSensors {
 		DeviceIDList.Add (21);
 		DeviceIDList.Add (30);
 
-
 		return DeviceIDList;
 	}
-
-
-
 }
