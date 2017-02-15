@@ -21,3 +21,24 @@
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/TCP-IP connection/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/TCP-IP connection/Temp/bin/Debug/UnityEngine.Advertisements.dll
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/TCP-IP connection/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/obj/Debug/Assembly-CSharp.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEditor.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Mono.Cecil.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Unity.DataContract.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Assembly-CSharp.dll

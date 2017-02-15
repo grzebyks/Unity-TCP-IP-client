@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0A6C4198-81A8-764C-0E3C-E700A0820BF3}</ProjectGuid>
+    <ProjectGuid>{C88A9E0E-C31D-A93D-B9D3-7A62A676DCFB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -50,7 +50,10 @@
      <Compile Include="Assets\_Scripts\Scene_2\socketScript.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\AsyncNetworkSocket.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\ConnectionStatusText.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\EpcDevice.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\EpcDeviceList.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\EpcMessage.cs" />
+     <Compile Include="Assets\_Scripts\Scene_Main_PLC\ListOfTrackedSensors.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\NetworkSocket.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\PLCSocket.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\ReceivedDataText.cs" />
