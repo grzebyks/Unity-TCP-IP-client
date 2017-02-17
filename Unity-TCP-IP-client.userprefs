@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Scene_Main_PLC/XamarinSocket.cs">
+    <Files>
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/XamarinSocket.cs" Line="144" Column="33" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/SensorAndValue.cs" Line="6" Column="57" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/ListOfTrackedSensors.cs" Line="28" Column="52" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/EpcMessage.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/EpcDevice.cs" Line="100" Column="23" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/ConnectionStatusText.cs" Line="36" Column="35" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/Gauges/AirSupplyGauge.cs" Line="9" Column="26" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/Gauges/VelocityGauge.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Scene_Main_PLC/Gauges/AccelerationGauge.cs" Line="9" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

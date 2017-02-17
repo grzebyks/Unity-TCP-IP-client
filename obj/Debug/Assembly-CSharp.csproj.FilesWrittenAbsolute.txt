@@ -42,3 +42,5 @@
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Temp/bin/Debug/UnityEngine.Purchasing.dll

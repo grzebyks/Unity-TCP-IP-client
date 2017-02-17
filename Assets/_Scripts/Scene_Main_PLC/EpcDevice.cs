@@ -47,6 +47,7 @@ public class EpcDevice
 	}
 	public bool isConnected { get; private set; }
 	public int epcMessageValue { get; private set; }
+	public ushort epcMessageID { get; private set; }
 	public int epcMessageValueOld { get; set; }
 
 	public void Connect()
@@ -95,7 +96,9 @@ public class EpcDevice
 				Debug.Log ("stworzy message"); 
 				EpcMessage message = new EpcMessage (_receivedBytes);
 				epcMessageValue = message.Value;
-				Debug.Log ("AAAAAA_OTRZYMANE DANE: " + "ID: " + message.ObjectIndex + " value: " + message.Value);
+				epcMessageID = message.ObjectIndex;
+				Thread.Sleep (10);
+//				Debug.Log ("AAAAAA_OTRZYMANE DANE: " + "ID: " + message.ObjectIndex + " value: " + message.Value);
 			}
 			Debug.Log ("Za while"); 
 			_cleanDisconnect();

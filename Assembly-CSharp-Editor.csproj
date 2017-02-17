@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{BAA145C0-0870-D3CF-B971-BF2234288312}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\42SavingAndLoading\Editor\PlayerPrefsTools.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\69CurvedText\Editor\CurvedTextEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\80ScriptableObjects\Editor\ScriptableObjectFactory.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\80ScriptableObjects\Editor\ScriptableObjectWindow.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Cameras\Scripts\Editor\AutoCamInspector.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Cameras\Scripts\Editor\FreeLookCamInspector.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Cross Platform Input\Scripts\Editor\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Car\Scripts\Editor\WheelEditor.cs" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\88PalletizedShader\PalletizedColor.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\Lighting.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardBRDF.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-Clear.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Unlit\Unlit-Color.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Prototyping\Shaders\WorldCoord Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-FirstPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle Multiply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\Vadodora Reaction ATTRIBUTION.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\58SliceShader\Slice.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\Diffuse RefEqualTwo.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Lit-Transparent.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-GUITexture.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Unlit-Transparent.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\SamplePositions.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-Halo.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\pumpkin_break_sounds_LICENSE.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle Add.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\LCDM2U__.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Cubemaps\CubeCopy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Player\p1_spritesheet.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Unlit-Detail.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityLightingCommon.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Lit-RefractionDetail(ProOnly).shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Lit-Refraction(ProOnly).shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityBuiltin3xTreeLibrary.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\SpeedTreeBillboardCommon.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle Alpha Blend.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-SplashShadowCaster.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Tessellation Shaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-SplashShadowBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Skybox.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle AddMultiply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\Shared.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-AddPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\64TargetLeadIndicator\Equation notepad.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\Coord.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardCore.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Cubemaps\CubeBlurOdd.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\parallax_forest_pack\license.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated_LICENSE.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Standard.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\63RadialFogOfWar\Transparent Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Font.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Sprites-Default.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardConfig.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Tiles\tiles_spritesheet.xml" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\GIDebug\VertexColors.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\Self-Illumin Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-Parallax.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\Green Grass Textures.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardUtils.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Default.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardInput.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityShaderVariables.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Projectors\Shaders\Projector Additive.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\BonusStencilExample\Shaders\MaskOneZLess.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Aircraft\Aircraft Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Cubemaps\CubeBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle AddSmooth.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\50WorldSpaceTextureShader\Normal-Diffuse-Worldspace.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefEqualTwo.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\InterpolateAlongRays.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\AutoLight.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\Volatile Reaction ATTRIBUTION.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Lit-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle MultiplyDouble.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\DepthBreaks.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\90PalletizedAlpha\PalletizedAlpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityBuiltin2xTreeLibrary.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\HUD\hud_spritesheet.xml" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-FirstPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Particle Systems\Shaders\Priority Particle Alpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Internal-DeferredShading.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\spaceArt\readme.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityMetaPass.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-PrePassCollectShadows.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-SplashShadowReceiver.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\Tessellation.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardMeta.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityGlobalIllumination.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\89PalletizedSurfaceShader\PalletizedSurfaceShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Enemies\enemies_spritesheet.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Particle Systems\Particle Systems Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\MaskOneZLess.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-Base.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityDeferredLibrary.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-BlitCopy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-Parallax.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\52ImprovedTilingShader\ImprovedTilingShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle VertexLit Blended.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Unlit-Text.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\BasicVertexExtrudeExample.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Flare.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\TerrainEngine.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Cross Platform Input\Cross Platform Input Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-DefaultFont.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Particle Systems\Shaders\Priority Particle Add (Soft).shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Internal-PrePassLighting.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\SpeedTreeVertex.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-GUITextureClip.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\license.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle Premultiply Blend.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Unlit-TextDetail.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Player\p3_spritesheet.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Skybox-Cubed.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-SplashShadowReceiverSimple.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\Bonus - Simplex Noise\noise-simplex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Particle Blend.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\27TargetInfo\visitor1License.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\29ScreenSpaceGradientShader\ScreenSpaceGradient.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\MaskOneZLessNoCull.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\single_footstep_on_carpet_tennis_shoes_.mp3.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-Parallax.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\StandardSpecular.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\GIDebug\UV1sAsPositions.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\SpeedTreeWind.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Cubemaps\CubeBlend.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\HLSLSupport.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\03LaserDot\Readme.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\58SliceShader\WorldSpaceSlice.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityShadowLibrary.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-Base.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Skybox-Procedural.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SpeedTreeBillboard.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityPBSLighting.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\TerrainSplatmapCommon.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\boxboy333_-_Chill_Groove_Multitrack_Drums\License.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Shaders\Mobile-Spec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\Bonus - Simplex Noise\PerlinVertexExtrudeSimplex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Car\Car Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Characters\Third Person Character\Third Person Character Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityStandardShadow.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-BumpNolight.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Sprites-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\UnityCG.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\spaceArt_LICENSE.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Bonus\DistortionBonus\DistortionShader2.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\crosshairs.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Bonus\DistortionBonus\DistortionShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-Bumped.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Cameras\Camera Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\78PixelPerfect\platformer-art-pixel-redux\license.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\Raymarch.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Player\p2_spritesheet.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\FinalInterpolation.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\UI\UI-Lit-Detail.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\MaskTwoZLess.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\BonusStencilExample\Shaders\MaskTwoZLess.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Characters\First Person Character\First Person Character Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\Depth.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-DiffuseFast.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Vehicles\Rolling Ball\Rolling Ball Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\$perlin_2002_cg_v001_292.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Reflect-Parallax.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Light Shafts Guidelines.txt" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Particle Systems\Shaders\Priority Particle Add.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\GIDebug\TextureUV.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Tessellation Shaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\54StencilBufferShader\Shaders\Diffuse RefEqualOne.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-Flare.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Illumin-Diffuse.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Nature\SpeedTree.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\Bonus - Simplex Noise\noiseSimplex.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\AlphaTest-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\51VertexShaders\PerlinVertexExtrude.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\CGIncludes\SpeedTreeCommon.cginc" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Sample Assets\Effects\Light Shafts\Shaders\ColorFilter.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\3rdPartyLicensed\platformerGraphicsDeluxe_Updated\Items\items_spritesheet.xml" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\90PalletizedAlpha\PalletizedSurfaceAlpha.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResources\Internal-ErrorShader.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Normal-Glossy.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-AddPass.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Decal.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Built-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+     <None Include="Assets\BreakfastWithUnity-master\Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/grzebyk/Documents/Szkoła/Mechatronika/PW Mgr/_AR APP/_Code/_AR_Unity_code/Unity-TCP-IP-client/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{C88A9E0E-C31D-A93D-B9D3-7A62A676DCFB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

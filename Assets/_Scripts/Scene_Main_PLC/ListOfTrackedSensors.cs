@@ -8,11 +8,24 @@ using System.Linq;
 // multiple robots. Uses new EpcDevice property - _dataID. Thanks to it every
 // sensor is treated as a single EpcDevice, but connection is established only
 // once with a particular ip.
-// TODO: consider creating EpcSensor - a subclass of EpcDevice
+// TODO: consider creating EpcSensor - a subclass of EpcDevice; consider adding a value multiplier.
 public class ListOfTrackedSensors {
 
+	private String _host;
+	private Int32 _port;
+	private String _deviceName;
+	public List <SensorAndValue> SensorAndValueList { get; private set; } 
 
-	public static List <EpcDevice> DeviceList (string host, Int32 port, string deviceName){
+
+	public ListOfTrackedSensors (string host, Int32 port, string deviceName){
+		_host = host;
+		_port = port;
+		_deviceName = deviceName;
+		SensorAndValueList = new List<SensorAndValue> ();
+		SensorAndValueList = _createDeviceList ();
+	}
+
+	private List<SensorAndValue> _createDeviceList (){
 
 		List<String> SensorNameList = new List<String>();
 		SensorNameList = NamesOfTrackedObjects ();
@@ -22,13 +35,20 @@ public class ListOfTrackedSensors {
 		List <EpcDevice> _DeviceList = new List<EpcDevice>();
 		for (int i = 0; i < 9; i++) {
 			_DeviceList.Add (new EpcDevice (
-				host, port, deviceName,DeviceIDList.ElementAt (i), SensorNameList.ElementAt (i)));
+				_host, _port, _deviceName, DeviceIDList.ElementAt (i), SensorNameList.ElementAt (i)));
 		}
-		return _DeviceList;
+
+		List <SensorAndValue> _SensorAndValueList = new List<SensorAndValue>();
+		foreach (EpcDevice _sensor in _DeviceList) {
+			SensorAndValue _singleSAV = new SensorAndValue (_sensor, 0);
+			_SensorAndValueList.Add (_singleSAV);
+		}
+
+		return _SensorAndValueList;
 	}
 		
 
-	private static List<String> NamesOfTrackedObjects(){
+	private List<String> NamesOfTrackedObjects(){
 		// TODO: create list of names
 		List <String> SensorNameList = new List<String>();
 
@@ -45,7 +65,7 @@ public class ListOfTrackedSensors {
 
 		return SensorNameList;
 	}
-	private static List<ushort> IdOfTrackedObjects(){
+	private List<ushort> IdOfTrackedObjects(){
 		// TODO: create list of names
 		List <ushort> DeviceIDList = new List<ushort>();
 
