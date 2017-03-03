@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ChangeShader.cs" />
+     <Compile Include="Assets\MainScript.cs" />
      <Compile Include="Assets\_Scripts\Scene_2\TCPConnection.cs" />
      <Compile Include="Assets\_Scripts\Scene_2\socketScript.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\ConnectionStatusText.cs" />
@@ -57,9 +59,7 @@
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\ListOfTrackedSensors.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\SensorAndValue.cs" />
      <Compile Include="Assets\_Scripts\Scene_Main_PLC\XamarinSocket.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <None Include="Assets\MyCustomShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -74,9 +74,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
